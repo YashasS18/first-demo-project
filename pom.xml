@@ -11,6 +11,12 @@
   <name>first-demo-project</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+sudo yum install -y maven
+  
+<properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+</properties>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
